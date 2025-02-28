@@ -1,4 +1,49 @@
 html {
     font-family: "IGM Plex Sans Condensed", serif;
     font-size: 12px;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+
+}
+
+header h1 {
+    width: 100%;
+    font-family: "IGM Plex Sans Condensed";
+    font-weight: 500;
+    font-size: 3.5rem;
+    padding: .5rem;
+    flex-grow: 1;
+    
+    
+}
+
+header ul {
+    display: inline-flex;
+
+}
+
+header ul li {
+    padding: .5rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: black; 
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+main {
+    margin-top: 15rem;
 }
