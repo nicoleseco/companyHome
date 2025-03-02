@@ -1,3 +1,4 @@
+
 html {
     font-family: "IGM Plex Sans Condensed", serif;
     font-size: 12px;
@@ -8,42 +9,56 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 7rem;
+    height: auto;
+    background-color: #ffffff;
 
 }
 
 header h1 {
     width: 100%;
-    font-family: "IGM Plex Sans Condensed";
+    font-family: "IBM Plex Sans Condensed", serif;
     font-weight: 500;
-    font-size: 3.5rem;
+    font-style: normal;
+    font-size: 4.5rem;
     padding: .5rem;
     flex-grow: 1;
-    
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+
     
 }
 
 header ul {
-    display: inline-flex;
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: center;
+    margin-right: 10rem;
+   
 
 }
 
 header ul li {
-    padding: .5rem;
+    padding: .5rem 15rem;
     list-style-type: none;
-    font-size: 1.5rem;
-    color: black; 
+    font-size: 2rem;
+    font-family: "IBM Plex Sans Condensed", serif;
+    font-weight: 300;
+    font-style: normal;
+    
 }
 
 header ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
 
 main {
-    margin-top: 15rem;
+    margin-top: 25rem;
 }
